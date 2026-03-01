@@ -1,0 +1,19 @@
+{
+  "name": "ruspy-ide",
+  "version": "1.0.0",
+  "description": "Ruspy IDE - Среда разработки на русском",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r ./* dist/ || true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/cli": "^8.1.0",
+    "@capacitor/core": "^8.1.0"
+  }
+}
+
