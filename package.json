@@ -4,7 +4,7 @@
   "description": "Ruspy IDE - Среда разработки на русском",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p dist && cp -r ./* dist/ || true",
+    "build": "mkdir -p dist && cp index.html index.js dist/ || true",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
